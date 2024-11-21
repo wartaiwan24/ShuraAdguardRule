@@ -24,12 +24,248 @@ application:
   rule:
     #远程订阅规则 （！使用前请删除下方示例配置, 注意缩进）
     remote:
-      - name: 'Subscription 1'               #可选参数: 规则名称，如无将使用 path 作为名称
-        path: 'https://example.org/rule.txt' #必要参数: 规则url，仅支持 http/https，不限定响应内容格式
-        type: easylist                       #可选参数: 规则类型：easylist (默认)、dnsmasq、clash、smartdns、hosts
+   - name: "AdGuard DNS filter"
+     path: 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/assets/filter_1.txt'
+   - name: "DD-AD"
+     path: 'https://cdn.jsdelivr.net/gh/afwfv/DD-AD@main/rule//dns.txt'
+   - name: "local-host"
+     path: 'https://raw.githubusercontent.com/Shura23/adghRuleShura23/refs/heads/v2/rule/local-rule.txt'
+   
+   - name: "anti-AD"
+     path: 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt'
+  # - name: "冷莫的白名单"
+  #   path: 'https://github.com/Potterli20/file/releases/download/github-hosts/allow.txt'
+   - name: " superbigsteam"
+     path: 'https://github.com/superbigsteam/adguardhomeguiz/blob/main/rule/dns.txt'
+   
+   - name: "5whys-min"
+     path: 'https://raw.githubusercontent.com/5whys-adblock/AdGuardHome-rules/main/rules/output_min.txt'
+   - name: "Scam Blocklist by DurableNapkin"
+     path: 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt'
+   - name: "ShadowWhisperer's Malware List"
+     path: 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt'
 
-      - name: 'Subscription 2'
-        path: 'http://example.org/rule.txt'
+#   - name: "AIO-Firebog-Blocklists"
+ #    path: 'https://raw.githubusercontent.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists/main/lists/aiofirebog.txt'
+   
+   - name: "someonewhocares"
+     path: 'https://someonewhocares.org/hosts/zero/hosts'
+   - name: "1hosts pro"
+     path: 'https://o0.pages.dev/Pro/adblock.txt'
+     
+   - name: "The Block List Project (Tracking)"
+     path: 'https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt'
+   - name: "The Block List Project (Ads)"
+     path: 'https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt'
+ 
+   - name: "Phishing.army"
+     path: 'https://phishing.army/download/phishing_army_blocklist.txt'
+     
+   - name: "stopforumspam (Toxic Domains)"
+     path: 'https://www.stopforumspam.com/downloads/toxic_domains_whole.txt'
+     
+   - name: "The Block List Project (Abuse)"
+     path: 'https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt'
+     
+   - name: "bongochong (CPBL Full)"
+     path: 'https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/cpbl-wildcard-blacklist.txt'
+     
+   - name: "developerdan (Tracking Aggressive)"
+     path: 'https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt'
+     
+     
+   - name: "Hagezi Badware Hoster blocking"
+     path: 'https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt'
+     
+     
+   - name: "HaGeZi's Fake DNS Blocklist"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt'
+     
+  # - name: "guandasheng"
+   #  path: 'https://github.guanmengkai.bf/https://raw.githubusercontent.com/guandasheng/adguardhome/main/rule/all.txt'
+     
+   - name: "Ad filter list by Disconnect"
+     path: 'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt'
+     
+   - name: "Malvertising list by Disconnect"
+     path: 'https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt'
+     
+     
+   - name: "neodevhost"
+     path: 'https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker'
+     
+   - name: "banad jiekouAD"
+     path: 'https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt'
+     
+   - name: "ADRuls"
+     path: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/Combo.txt'
+     
+   - name: "NextDNS Privacy - Sonos"
+     path: 'https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos'
+     
+   - name: "NextDNS Privacy - Roku"
+     path: 'https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku'
+     
+   - name: "NextDNS Privacy - Alexa"
+     path: 'https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa'
+     
+   - name: "NextDNS Privacy - Apple"
+     path: 'https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple'
+     
+   - name: "First-party trackers host list"
+     path: 'https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt'
+     
+   - name: "bigdargon - hostsVN"
+     path: 'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts'
+     
+   - name: "abuse.ch URLhaus Host file"
+     path: 'https://urlhaus.abuse.ch/downloads/hostfile/'
+     
+   - name: "PolishFiltersTeam - KADhosts"
+     path: 'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt'
+     
+   - name: "FadeMind - Hosts Extra (Spam Hosts)"
+     path: 'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts'
+     
+   - name: "BarbBlock"
+     path: 'https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt'
+     
+   - name: "Winhelp MVPS Hosts"
+     path: 'https://winhelp2002.mvps.org/hosts.txt'
+     
+   - name: "The Big List of Hacked Malware Web Sites"
+     path: 'https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts'
+     
+   - name: "Online Malicious URL Blocklist"
+     path: 'https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts'
+     
+   - name: "StevenBlack - Hosts"
+     path: 'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts'
+     
+   - name: "Game Console Adblock List"
+     path: 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt'
+     
+   - name: "Spam404 - Adblock List"
+     path: 'https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt'
+     
+   - name: "Lightswitch05 - AMP Hosts"
+     path: 'https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt'
+     
+   - name: "Lightswitch05 - Ads and Tracking"
+     path: 'https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt'
+     
+   - name: "Lightswitch05 - Tracking Aggressive"
+     path: 'https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt'
+     
+   - name: "AdAway Default Blocklist"
+     path: 'https://adaway.org/hosts.txt'
+     
+   - name: "OISD Big List"
+     path: 'https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt'
+     
+ #  - name: "冷莫trli AdHosts-pro（For ad-adguardhome）"
+ #    path: 'https://github.com/Potterli20/file/releases/download/ad-hosts-pro/ad-adguardhome.txt'
+     
+   - name: "FadeMind - hosts.extras/add.2o7Net"
+     path: 'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts'
+     
+   - name: "ethanr - DNS-Blacklists"
+     path: 'https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt'
+     
+   - name: "Threat-Intel"
+     path: 'https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt'
+     
+   - name: "jdlingyu - ad-wars"
+     path: 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
+     
+   - name: "Perflyst and Dandelion Sprout's Smart-TV Blocklist"
+     path: 'https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt'
+     
+     
+   - name: "anudeepND - Adservers"
+     path: 'https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt'
+     
+   - name: "Matomo.org - Referrer Spammers"
+     path: 'https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt'
+     
+   - name: "Matomo - Referrer Spam Blacklist"
+     path: 'https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt'
+     
+   - name: "ZeroDot1 - CoinBlockerLists"
+     path: 'https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser'
+     
+   - name: "NextDNS Privacy - Huawei"
+     path: 'https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei'
+     
+   - name: "NextDNS Privacy - Xiaomi"
+     path: 'https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi'
+     
+   - name: "NextDNS Privacy - Windows"
+     path: 'https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows'
+     
+   - name: "BlueSkyXN"
+     path: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt'
+     
+   - name: "hagezi  ULTIMATE"
+     path: 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt'
+   - name: "miaoermua"
+     path: 'https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/rule.txt'
+ 
+ 
+   - name: "jerryn70 GoodbyeAds"
+     path: 'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt'
+   - name: "8680 GoodbyeAds"
+     path: 'https://raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt'
+   - name: "8680 GoodbyeAds白名单"
+     path: 'https://raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt'
+   
+   
+   - name: "FastHost"
+     path: 'https://raw.githubusercontent.com/xiulou23/FastHostSync/main/Hosts'
+   - name: "Adguard移动广告过滤器"
+     path: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt'
+   - name: "Hagezi 华为"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt'
+   - name: "Hagezi 苹果"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt'
+   - name: "Hagezi 微软"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt'
+   - name: "Hagezi vivo"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt'
+   - name: "hagezi oppo realme"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt'
+   - name: "hagezi 小米"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt'
+   - name: "hagezi  Threat Intelligence Feeds"
+     path: 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt'
+   - name: "hagezi popup ads"
+     path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt'
+   - name: "ScamBlocklist By DurableNapkin"
+     path: 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/security/filter_10_ScamBlocklistByDurableNapkin/filter.txt'
+   - name: "Ublock orgin BadwareRisks"
+     path: 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/security/filter_50_UblockBadwareRisks/filter.txt'
+   - name: "PhishingURLBlocklist"
+     path: 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/security/filter_30_PhishingURLBlocklist/filter.txt'
+   - name: "easyprivacy"
+     path: 'https://easylist.to/easylist/easyprivacy.txt'
+   - name: "adguard 防跟踪过滤器"
+     path: 'https://filters.adtidy.org/android/filters/3_optimized.txt'
+   - name: "VeleSila (yhosts)"
+     path: 'https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts'
+   - name: "notrack-blocklists (Blocklist)"
+     path: 'https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.list'
+   - name: "frogeye.fr (multiparty-trackers)"
+     path: 'https://hostfiles.frogeye.fr/multiparty-trackers.txt'
+   - name: "vdbhb59 (Unified Hosts)"
+     path: 'https://hosts.flossboxin.org.in/files/hosts'
+   - name: "Phishing.army (Extended)"
+     path: 'https://phishing.army/download/phishing_army_blocklist_extended.txt'
+   - name: "PolishFiltersTeam (KADhosts)"
+     path: 'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt'
+   - name: "hole.cert.pl"
+     path: 'https://hole.cert.pl/domains/domains.txt'
+   - name: "global anti-scam"
+     path: 'https://raw.githubusercontent.com/elliotwutingfeng/GlobalAntiScamOrg-blocklist/main/global-anti-scam-org-scam-urls-pihole.txt'
 
     #本地规则文件
     local:

@@ -201,7 +201,7 @@ mvn spring-boot:run
 
 ## ⭐ 感谢支持
 <p align='center'>
-  <a href="https://github.com/Shura23/adghRuleShura23/stargazers">
+  <a href="https://github.com/wartaiwan24/adghRuleShura23/stargazers">
     <img src="https://api.star-history.com/svg?repos=Shura23/adghRuleShura23&type=Date">
   </a>
 </p>

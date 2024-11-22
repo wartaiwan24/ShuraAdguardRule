@@ -28,6 +28,8 @@ application:
         path: 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/assets/filter_1.txt'
       - name: "DD-AD"
         path: 'https://cdn.jsdelivr.net/gh/afwfv/DD-AD@main/rule//dns.txt'
+      - name: "local-rule"
+        path: 'https://raw.githubusercontent.com/wartaiwan24/ShuraAdguardRule/refs/heads/v2/rule/local-rule.txt'
   
    
       - name: "anti-AD"

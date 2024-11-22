@@ -1,0 +1,575 @@
+!-------------白名单---------------
+
+#图床
+@@||pic.imgdb.cn
+
+@@||www.a.shifen.com^$important
+
+#放行阿里dns
+@@||dns.alidns.com^$important
+
+@@||www.a.shifen.com^$important
+#放行三角洲行动
+@@||cdntips.net^$important
+@@||itop.qq.com^$important
+#放行微软MSN
+@@||assets.msn.cn^$important
+
+#抖音
+||webcast-open.douyin.com^
+
+#微信支付
+@@||payapp.weixin.qq.com^$important
+#放行ghostery扩展程序
+@@||anonymous-communication.ghostery.net^$important
+#夸克网盘
+@@||pan.quark.cn^$important
+@@||drive.quark.cn^$important
+#放行华为账号登录
+@@||oauth-login-drcn.platform.dbankcloud.com^$important
+#夸克首页
+@@||myquark.cn^$important
+#放行360网站
+@@||360.cn^$important
+#放行新浪网站
+@@||sinaimg.cn^$important
+@@||*.sina.*^$important
+#放行disconnect网站
+@@||*disconnect.me^$important
+#小米骚扰拦截 数据库更新
+@@||api.sec.miui.com^$important
+
+@@||alicdn.com^$important
+
+#放行和讯新闻网站
+@@||news.hexun.com^$important
+@@||web.hexun.com^$important
+
+#小米推送(mipush)
+@@||cn.app.chat.xiaomi.net^$important
+
+#屏蔽小米电视广告、小米电视自带程序升级、小米电视系统升级
+127.0.0.1 519332DA.rtc.youme.im
+127.0.0.1 ad.doubleclick.net
+127.0.0.1 ad.hpplay.cn
+127.0.0.1 ad.mi.com
+127.0.0.1 ad.xiaomi.com
+127.0.0.1 ad1.xiaomi.com
+127.0.0.1 adc.hpplay.cn
+127.0.0.1 adcdn.hpplay.cn
+127.0.0.1 adeng.hpplay.cn
+127.0.0.1 admaster.com.cn
+127.0.0.1 adv.sec.miui.com
+127.0.0.1 alert.kuyun.com
+127.0.0.1 alog.umeng.com
+127.0.0.1 android.bugly.qq.com
+127.0.0.1 api.ad.xiaomi.com
+127.0.0.1 api.cupid.ptqy.gitv.tv
+127.0.0.1 api.hpplay.com.cn
+127.0.0.1 appstore.cdn.pandora.xiaomi.com
+127.0.0.1 appstore.pandora.xiaomi.com
+127.0.0.1 assistant.pandora.xiaomi.com
+127.0.0.1 auth.api.gitv.tv
+127.0.0.1 b.netcheck.gallery.pandora.xiaomi.com
+127.0.0.1 broker.mqtt.pandora.xiaomi.com
+127.0.0.1 bss.pandora.xiaomi.com
+127.0.0.1 cdn.ad.xiaomi.com
+127.0.0.1 cdn.hpplay.com.cn
+127.0.0.1 cdn1.hpplay.cn
+127.0.0.1 cloud.hpplay.cn
+127.0.0.1 conf.hpplay.cn
+127.0.0.1 config.kuyun.com
+127.0.0.1 d1.xiaomi.com
+127.0.0.1 data.mistat.xiaomi.com
+127.0.0.1 de.pandora.xiaomi.com
+127.0.0.1 devicemgr.hpplay.cn
+127.0.0.1 dvb.pandora.xiaomi.com
+127.0.0.1 e.ad.xiaomi.com
+127.0.0.1 f1.market.mi-img.com
+127.0.0.1 f1.market.xiaomi.com
+127.0.0.1 f2.market.mi-img.com
+127.0.0.1 f2.market.xiaomi.com
+127.0.0.1 f3.market.mi-img.com
+127.0.0.1 f3.market.xiaomi.com
+127.0.0.1 f4.market.mi-img.com
+127.0.0.1 f4.market.xiaomi.com
+127.0.0.1 f5.market.mi-img.com
+127.0.0.1 f5.market.xiaomi.com
+127.0.0.1 file.xmpush.xiaomi.com
+127.0.0.1 fix.hpplay.cn
+127.0.0.1 ftp.hpplay.com.cn
+127.0.0.1 g.dtv.cn.miaozhan.com
+127.0.0.1 g.dtv.cn.miaozhen.com
+127.0.0.1 gallery.pandora.xiaomi.com
+127.0.0.1 gslb.hpplay.cn
+127.0.0.1 gvod.aiseejapp.atianqi.com
+127.0.0.1 h5.hpplay.com.cn
+127.0.0.1 hotupgrade.hpplay.cn
+127.0.0.1 hotupgrade.hpplay.cn
+127.0.0.1 hpplay.cdn.cibn.cc
+127.0.0.1 hub5btmain.sandai.net
+127.0.0.1 hub5emu.sandai.net
+127.0.0.1 image.hpplay.cn
+127.0.0.1 imdns.hpplay.cn
+127.0.0.1 jellyfish.pandora.xiaomi.com
+127.0.0.1 leboapi.hpplay.com.cn
+127.0.0.1 logonext.tv.kuyun.com
+127.0.0.1 market.xiaomi.com
+127.0.0.1 metok.sys.miui.com
+127.0.0.1 milink.pandora.xiaomi.com
+127.0.0.1 misc.in.duokanbox.com
+127.0.0.1 misc.pandora.xiaomi.com
+127.0.0.1 mishop.pandora.xiaomi.com
+127.0.0.1 mitv.tracking.miui.com
+127.0.0.1 new.api.ad.xiaomi.com
+127.0.0.1 o2o.api.xiaomi.com
+127.0.0.1 omgmta.play.aiseet.atianqi.com
+127.0.0.1 osfota.cdn.aliyun.com
+127.0.0.1 osupdateservice.yunos.com
+127.0.0.1 ota.cdn.pandora.xiaomi.com
+127.0.0.1 package.box.xiaomi.com
+127.0.0.1 package.cdn.pandora.xiaomi.com
+127.0.0.1 pandora.mi.com
+127.0.0.1 pin.hpplay.cn
+127.0.0.1 r.browser.miui.com
+127.0.0.1 redirect.pandora.xiaomi.com
+127.0.0.1 register.xmpush.xiaomi.com
+127.0.0.1 resolver.msg.xiaomi.net
+127.0.0.1 rp.hpplay.cn
+127.0.0.1 rp.hpplay.com.cn
+127.0.0.1 rps.hpplay.cn
+127.0.0.1 sdkauth.hpplay.cn
+127.0.0.1 sdkconfig.ad.xiaomi.com
+127.0.0.1 secure-chn.imrworldwide.com
+127.0.0.1 sl.hpplay.cn
+127.0.0.1 ssp.ad.xiaomi.com
+127.0.0.1 staging.ai.api.xiaomi.com
+127.0.0.1 starfish.pandora.xiaomi.com
+127.0.0.1 stat.pandora.xiaomi.com
+127.0.0.1 t1.a.market.xiaomi.com
+127.0.0.1 t2.a.market.xiaomi.com
+127.0.0.1 t3.a.market.xiaomi.com
+127.0.0.1 t4.a.market.xiaomi.com
+127.0.0.1 t5.a.market.xiaomi.com
+127.0.0.1 t7z.cupid.ptqy.gitv.tv
+127.0.0.1 tat.pandora.xiaomi.com
+127.0.0.1 test.ad.xiaomi.com
+127.0.0.1 test.new.api.ad.xiaomi.com
+127.0.0.1 tracking.miui.com
+127.0.0.1 tv.aiseet.atianqi.com
+127.0.0.1 tv.weixin.pandora.xiaomi.com
+127.0.0.1 tvapi.kuyun.com
+127.0.0.1 tvapp.hpplay.cn
+127.0.0.1 tvmanager.pandora.xiaomi.com
+127.0.0.1 tvmgr.pandora.xiaomi.com
+127.0.0.1 upgrade.mishop.pandora.xiaomi.com
+127.0.0.1 upgrade.xl9.xunlei.com
+127.0.0.1 userapi.hpplay.com.cn
+127.0.0.1 v.admaster.com.cn
+127.0.0.1 video.market.xiaomi.com
+127.0.0.1 vipauth.hpplay.cn
+127.0.0.1 vipsdkauth.hpplay.cn
+127.0.0.1 vv.play.aiseet.atianqi.com
+#屏蔽创维电视广告
+||active.tc.skysrt.com^
+||ad.3.cn^
+||admaster.com.cn^
+||alog.umeng.com^
+||amdcopen.m.taobao.com^
+||api.app.skysrt.com^
+||api.device.skysrt.com^
+||api.hoisin.hw.coocaatv.com^
+||api.home.skysrt.com^
+||api.skyworthiot.com^
+||api.upgrade.skysrt.com^
+||api-app.coocaa.ottcn.com^
+||api-home.coocaa.ottcn.com^
+||api-home.skysrt.com^
+||api-upgrade.coocaa.ottcn.com^
+||app.snm0516.aisee.tv^
+||btrace.play.t002.ottcn.com^
+||business.video.tc.skysrt.com^
+||cl-dl.cc0808.com^
+||clog.skysrt.com^
+||conf-darwin.xycdn.com^
+||connect.play.aiseet.atianqi.com^
+||data-dl.skysrt.com^
+||data-hoisin.coocaa.com^
+||dl.skysrt.com^
+||dp3.play.t002.ottcn.com^
+||gs.getui.com^
+||hoisin.coocaa.com^
+||hoisin.coocaatv.com^
+||irs01.com^
+||kaola.com^
+||livep.l.t002.ottcn.com^
+||log.skysrt.com^
+||mdp-at.geely.com^
+||member.coocaa.com^
+||miaozhen.com^
+||mtrace.play.t002.ottcn.com^
+||ocsp.int-x3.letsencrypt.org^
+||p.tencentmind.com^
+||play.t002.ottcn.com^
+||push.tc.skysrt.com^
+||push.tvos.skysrt.com^
+||puui.qpic.cn^
+||qr.coocaa.com^
+||res.hoisin.coocaatv.com^
+||rpc-tc.skysrt.com^
+||rpt-gdt.play.t002.ottcn.com^
+||s.jpush.cn^
+||sdk1xyajs.data.p2cdn.com^
+||sis.jpush.io^
+||sky.tvos.skysrt.com^
+||skyworthdigital.com^
+||skyworthiot.com^
+||stats.jpush.cn^
+||status.tvos.skysrt.com^
+||status2.tvos.skysrt.com^
+||sv.video.qq.com^
+||taps.net^
+||tq.skysrt.com^
+||tracker.appadhoc.com^
+||tvapp.hpplay.cn^
+||tvos.skysrt.com^
+||tx.ctrmi.cn^
+||umengacs.m.taobao.com^
+||uop.umeng.com^
+||update01.skyworth-cloud.com.wswebpic.com^
+||update01.skyworth-cloud.com^
+||vqq.admaster.com.cn^
+||webapp.skysrt.com^
+||bak.bajintech.com^$important^
+||iwd.skysrt.com^$important^
+||ipv4only.arpa^$important^
+||api.bajintech.com^$important^
+||wifimodule.doubimeizhi.com^$important^
+||msy59wz.mqtt.iot.gz.baidubce.com^$important^
+||i.ytimg.com^$important^
+
+#个推
+||gepush.com^$important
+||getui.net^$important
+||igexin.com^$important
+||getui.cn^$important
+||getui.com^$important
+
+#公共CDN和加密DNS
+@@||bootcdn.net^$important
+||httpdns.alicdn.com^$important
+||httpdns.platform.dbankcloud.com^$important
+||apidns.kwd.inkuai.com^$important
+||dns.iqiyi.com^$important
+||dns.jd.com^$important
+||dns.qiyipic.iqiyi.com^$important
+||dns.weibo.cn^$important
+||dns.weixin.qq.com^$important
+||dns.weixin.qq.com.cn^$important
+||doh.dns.apple.com^$important
+||doh.iqiyi.com^$important
+||doh.ptqy.gitv.tv^$important
+||dotserver.douyucdn.cn^$important
+||hdns.ksyun.com^$important
+||httpdns-api.aliyuncs.com^$important
+||httpdns-browser.platform.dbankcloud.cn^$important
+||httpdns.huaweicloud.com^$important^$important
+||httpdns-sc.aliyuncs.com^$important
+||httpdns-sdk.n.netease.com^$important
+||httpdns.baidu.com^$important
+||httpdns.baidubce.com^$important
+||httpdns.bcelive.com^$important
+||httpdns.bilivideo.com^$important
+||httpdns.browser.miui.com^$important
+||httpdns.c.cdnhwc2.com^$important
+||httpdns.cctv.com^$important
+||httpdns.danuoyi.tbcache.com^$important
+||httpdns.gslb.yy.com^$important
+||httpdns.huaweicloud.com^$important
+||httpdns.kg.qq.com^$important
+||httpdns.kwd.inkuai.com^$important
+||httpdns.meituan.com^$important
+||httpdns.music.163.com^$important
+||httpdns.n.netease.com^$important
+||httpdns.n.shifen.com^$important
+||httpdns.ocloud.heytapmobi.com^$important
+||httpdns.ocloud.oppomobile.com^$important
+||httpdns.platform.dbankcloud.cn^$important
+||httpdns.platform.dbankcloud.com^$important
+||*httpdns*huawei*$important
+||httpdns.pro^$important
+||httpdns.push.heytapmobi.com^$important
+||httpdns.push.oppomobile.com^$important
+||httpdns.volcengineapi.com^$important
+||httpdns.yunxindns.com^$important
+||httpdns.zybang.com^$important
+||httpdns1.cc.cdnhwc5.com^$important
+||httpsdns.baidu.com^$important
+||lofter.httpdns.c.163.com^$important
+||music.httpdns.c.163.com^$important
+@@||ipv6-static.dns.iqiyi.com^$important
+#用来放行Firefox遥测数据
+@@||telemetry-incoming.r53-2.services.mozilla.com^$important
+@@||incoming.telemetry.mozilla.org^$important
+@@||*.mozilla.*^$important
+
+#放行edge的rewards
+@@||prod.rewardsplatform.microsoft.com^$important
+#放行谷歌安全浏览服务
+@@||safebrowsing.googleapis.com^$important
+#放行Firefox日志上传
+@@||push.services.mozilla.com^$important
+@@||crash-reports.mozilla.com^$important
+#放行163网站
+@@||163.com^$important
+@@||www.163.com^$important
+@@||mail.163.com^$important
+@@||dl.reg.163.com^$important
+#解除对dnspod网站的限制
+@@||tencent-cloud.cn^$important
+#放行wps更新
+@@||update.wps.cn^
+
+
+!-------------黑名单--------------------
+
+||log.uu.163.com^$important
+||ksmobile.com^$important
+
+!-----------------待定-----------------
+
+#美团推送(大众点评)
+@@||dpmtpush.dianping.com^$important
+
+#阿里推送(未知用途)
+@@||mpush-api.aliyun.com^$important
+
+#小米浏览器 地址栏应用广告
+||exp.sug.browser.miui.com^$important
+||sentry.d.xiaomi.net^$important
+
+#夸克
+@@||quark.cn^$important
+
+#涉及部分UC系登陆、扫码验证等
+@@||uc.cn^$important
+
+
+#bilbili
+||grpc.biliapi.net^$important
+#禁止哔哩哔哩pcdn
+||*pcdn*.biliapi.net^$important
+||mcdn.bilivideo.cn^$important
+||szbdyd.com^$important
+@@||cn-*.bilivideo.com^$important
+
+#放行加密dns
+@@||cloudflare-dns.com^$important
+@@||dooh.cloudflare-dns.com^$important
+@@||dns.dnswarden.com^$important
+@@||firefox.dns.nextdns.io^$important
+@@||freedns.controld.com^$important
+@@||max.rethinkdns.com^$important
+@@||sky.rethinkdns.com^$important
+
+@@||ap6.ssl.msdk.qq.com.mshome.net^$important
+@@||wxsnsdythumb.wxs.qq.com.mshome.net^$important
+@@||cloudflare-dns.com^$important
+
+
+#放行博客园网站
+@@||cnblogs.com^$important
+
+@@||rsc.cdn77.org^$important
+@@||ocsp.digicert.com^$important
+@@||*digicert.com^$important
+
+
+#放行nvidiv
+@@||gx-target-experiments-frontend-api.gx.nvidia.com^$important
+
+#网易
+||httpdns-sdk.n.netease.com^$important
+||httpdns.n.netease.com^$important
+||nstool.netease.com^$important
+||httpdns.music.163.com^$important
+#腾讯广告和隐私收集
+||dns.weixin.qq.com.cn^$important
+@@||game.eve.mdt.qq.com^$important
+@@||mat1.gtimg.com^$important
+||dnet.mb.qq.com^$important
+||yun-hl.3g.qq.com^$important
+||tmfsdktcpv4.m.qq.com^$important
+||dl.txcdns.com^$important
+||url.cn^$important
+||cdn-go.cn^$important
+#高德地图广告
+||cgicol.amap.com^$important
+||store.is.autonavi.com^$important
+
+#中国移动隐私数据
+||config.cmpassport.com^$important
+#新华网数据收集
+||wts.xinwen.cn^$important
+
+#快手
+||apidns.kwd.inkuai.com^$important
+||kuaishou.httpdns.pro^$important
+||hdns.ksyun.com^$important
+||open.e.kuaishou.com^$important
+#网易云音乐
+||netapm.music.163.com^$important
+||natdetection.onethingpcs.com^$important
+||lbs.netease.im^$important
+||ipv6.music.163.com^$important
+||ipv4.music.163.com^$important
+||iadmusicmat.music.126.net^$important
+#QQ音乐
+||wnsmusic.qq.com^$important
+||tmeadbak.y.qq.com^$important
+||ugcup.music.qq.com^$important
+||ad.tencentmusic.com^$important
+||ipv6.kg.qq.com^$important
+||tmeadbak.y.qq.com^$important
+#淘宝广告
+||wcp.taobao.com^$important
+||acs.m.taobao.com^$important
+#vivo浏览器广告
+||h5.vivo.com.cn^$important
+||browser.vivo.com.cn^$important
+||zhan.vivo.com.cn^$important
+||onewsvod.com^$important
+||yidianzixun.com^$important
+||ads-marketing-vivofs.vivo.com.cn^$important
+||*browser*.vivo.com.cn^$important
+
+#禁止pcdn
+||bsccdn.net^$important
+||*pcdn.*youku.com
+||00cdn.com^$important
+||88cdn.com^$important
+||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
+||apd-pcdnwxnat.teg.tencent-cloud.net^$important
+||dyp2p-ali.douyucdn.cn^$important
+||dyp2p-hw.douyucdn.cn^$important
+||kuiniuca.com^$important
+||onethingpcs.com^$important
+||p2p-ali.douyucdn.cn^$important
+||p2p.huya.com^$important
+||p2p.qq.com^$important
+||p2pchunk-hw.douyucdn.cn^$important
+||p2pchunk-table.douyucdn.cn^$important
+||p2pchunk-ws.douyucdn.cn^$important
+||p2perrorlog.douyucdn.cn^$important
+||p2plive-ali.douyucdn.cn^$important
+||p2plive-ws.douyucdn.cn^$important
+||p2plog.douyucdn.cn^$important
+||p2ptun.qq.com^$important
+||p2pupdate.gamedl.qq.com^$important
+||p2pupgrade.gamedl.qq.com^$important
+||p2pvod-ws.douyucdn.cn^$important
+||pcdn.yximgs.com^$important
+||pkoplink.com^$important
+||saxysec.com^$important
+||stun.douyucdn.cn^$important
+||stun.hitv.com^$important
+||stun1.douyucdn.cn^$important
+||szbdyd.com^$important
+||uhabo.com^$important
+||xycdn.com^$important
+#百家号
+||mbdq02.bdstatic.com^$important
+
+@@||ocsp.entrust.net^$important
+#steam下载时用的cdn
+@@||xz.pphimalayanrt.com^$important
+#放行阿里云网站
+@@||g.alidns.com^$important
+#放行rethink dns网站
+@@||rethinkdns.com^$important
+
+#放行138ip查询网站
+@@||*ip138.com^$important
+
+
+#放行谷歌单点登录
+@@||ogs.google.com^$important
+
+||browseraps-drcn.dbankcdn.cn^$important
+||wappass.baidu.com^$important
+||mbd.baidu.com^$important
+||ms.bdstatic.com^$important
+
+||miaowu.n.shifen.com^$important
+||miaowu.baidu.com^$important
+||nourl.ubs.baidu.com^$important
+||libs.baidu.com^$important
+
+@@||ocsp.dcocsp.cn^$important
+
+
+
+#放行Firefox跟踪保护
+@@||tracking-protection.prod.mozaws.net^$important
+#华为广告和隐私收集
+||openlocation-drcn.platform.dbankcloud.com^$important
+||msch.f.360.cn^$important
+||ubacollect-drcn.cloud.dbankcloud.cn^$important
+||browsercfg-drcn.cloud.dbankcloud.cn^$important #禁用华为浏览器网址检测
+||grs.dbankcloud.com^$important
+
+#哔哩哔哩广告和隐私收集
+||bigfun.cn^$important
+||biligame.com^$important
+||activity.hdslb.com^$important
+||interface.bilibili.com^$important
+#钉钉隐私收集
+||resolver.dingtalk.com^$important
+#支付宝隐私收集
+||loggw.alipay.com^$important
+#360广告联盟
+||cdn-go.cn^$important
+||qhtui.com^$important
+||*50union*^$important
+||*qhtui*^$important
+||*360src*^$important
+||*kouxin*^$important
+||360kuai.com^$important
+||wows.360.cn^$important
+||360chou.com^$important
+||wot.360.cn^$important
+||u.360.cn^$important
+||yasuo.360.cn^$important
+||yule.360.com^$important
+||360shuke.com^$important
+
+#360sdk
+||p.s.360.cn^$important
+||360os.com^$important
+#字节跳动sdk
+||bds.snssdk.com^$important
+||toblog.ctobsnssdk.com^$important
+||log-api.pangolin-sdk-toutiao.com^$important
+||sf1-be-pack.pglstatp-toutiao.com^$important
+||api-access.pangolin-sdk-toutiao.com^$important
+#友盟
+||alog.umeng.com^$important
+||ulogs.umeng.com^$important
+||errlog.umeng.com^$important
+
+
+
+
+
+
+
+
+
+#放行雅虎
+@@||yahoo.com^$important
+
+
+
+
+
+

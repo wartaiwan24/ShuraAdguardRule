@@ -496,11 +496,8 @@
 @@||ogs.google.com^$important
 
 ||browseraps-drcn.dbankcdn.cn^$important
-||wappass.baidu.com^$important
 ||mbd.baidu.com^$important
 ||ms.bdstatic.com^$important
-
-||miaowu.n.shifen.com^$important
 ||miaowu.baidu.com^$important
 ||nourl.ubs.baidu.com^$important
 ||libs.baidu.com^$important
